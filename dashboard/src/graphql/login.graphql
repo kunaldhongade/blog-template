@@ -1,0 +1,50 @@
+mutation Login($email: String!, $password: String!, $origin: String!) {
+    login(email: $email, password: $password, origin: $origin) {
+        user {
+            id
+            firstName
+            lastName
+            email
+            birthDate
+            gender
+            title
+            verified
+            role
+            profilePicture
+            newsletterSubscribed
+            createdAt
+            updatedAt
+            posts {
+                id
+                slug
+                draft
+                authorId
+                title
+                description
+                slogan
+                postCover
+                content
+                createdAt
+                updatedAt
+            }
+            issues {
+                id
+                newsletterId
+                draft
+                authorId
+                title
+                subject
+                newsletterCover
+                content
+                createdAt
+                updatedAt
+            }
+        }
+        errors {
+            field
+            message
+        }
+        accessToken
+        status
+    }
+}

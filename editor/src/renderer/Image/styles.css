@@ -1,0 +1,39 @@
+.rdw-image-alignment-options-popup {
+  font-family: "Roboto Condensed", sans-serif;
+  position: absolute;
+  background: white;
+  display: flex;
+  border-radius: 0px;
+  border: 2px solid #000000;
+  cursor: pointer;
+  z-index: 100;
+}
+.rdw-alignment-option-left {
+  justify-content: flex-start;
+}
+.rdw-image-alignment-option {
+  height: 20px;
+  width: 20px;
+  min-width: 20px;
+  font-weight: 700;
+}
+.rdw-image-alignment {
+  position: relative;
+}
+.rdw-image-imagewrapper {
+  position: relative;
+}
+.rdw-image-center {
+  display: flex;
+  justify-content: center;
+}
+.rdw-image-left {
+  display: flex;
+}
+.rdw-image-right {
+  display: flex;
+  justify-content: flex-end;
+}
+.rdw-image-alignment-options-popup-right {
+  right: 0;
+}

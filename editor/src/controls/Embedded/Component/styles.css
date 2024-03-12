@@ -1,0 +1,115 @@
+.rdw-embedded-wrapper {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0px;
+  position: relative;
+  flex-wrap: wrap
+}
+.rdw-embedded-modal {
+  position: absolute;
+  top: 35px;
+  left: 5px;
+  display: flex;
+  flex-direction: column;
+  width: 235px;
+  height: 180px;
+  border: 2px solid #000000;
+  padding: 0px;
+  border-radius: 0px;
+  z-index: 100;
+  background: white;
+  justify-content: space-between;
+  box-shadow: none;
+  overflow: auto;
+}
+.rdw-embedded-modal-header {
+  font-size: 15px;
+  display: flex;
+  padding-top: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-bottom: 8px;
+}
+.rdw-embedded-modal-header-option {
+  width: 50%;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.rdw-embedded-modal-header-label {
+  width: 95px;
+  border: none;
+  margin-top: 4px;
+  background: transparent;
+  border-bottom: 2px solid blue;
+}
+.rdw-embedded-modal-link-section {
+  display: flex;
+  flex-direction: column;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+.rdw-embedded-modal-link-input {
+  width: 88%;
+  height: 35px;
+  margin: none;
+  border: none;
+  border-bottom: 1px solid #000000;
+  border-radius: 0px;
+  font-size: 15px;
+  padding: 0 4px;
+}
+.rdw-embedded-modal-link-input-wrapper {
+  display: flex;
+  align-items: center;
+}
+.rdw-embedded-modal-link-input:focus {
+  outline: none;
+}
+.rdw-embedded-modal-btn-section {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  padding-bottom: 8px;
+}
+.rdw-embedded-modal-btn {
+  margin: none;
+  width: 75px;
+  height: 30px;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  background: transparent;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  font-weight: 700;
+}
+.rdw-embedded-modal-btn:nth-child(1) {
+  background: blue;
+}
+.rdw-embedded-modal-btn:nth-child(2) {
+  background: #000000;
+}
+.rdw-embedded-modal-btn:disabled {
+  background: #ece9e9;
+}
+.rdw-embedded-modal-size {
+  align-items: center;
+  display: flex;
+  margin: 8px 0;
+  justify-content: space-between;
+}
+.rdw-embedded-modal-size-input {
+  width: calc(80% - 4px);
+  height: 20px;
+  border: none;
+  border-bottom: 1px solid #000000;
+  border-radius: 0px;
+  font-size: 12px;
+  padding: 0 4px;
+}
+.rdw-embedded-modal-size-input:focus {
+  outline: none;
+}

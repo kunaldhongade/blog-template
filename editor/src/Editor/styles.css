@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+.rdw-editor-main {
+  height: 100%;
+  overflow: auto;
+  box-sizing: border-box;
+}
+.rdw-editor-toolbar {
+  font-family: "Roboto Condensed", sans-serif;
+  padding: none;
+  border-radius: 0px;
+  border: none;
+  display: flex;
+  justify-content: flex-start;
+  background: white;
+  flex-wrap: wrap;
+  font-size: 15px;
+  margin-bottom: 0px;
+  user-select: none;
+}
+.public-DraftStyleDefault-block {
+  margin: 0.6em 0;
+}
+.rdw-editor-wrapper:focus {
+  outline: none;
+}
+.rdw-editor-wrapper {
+  box-sizing: content-box;
+}
+.rdw-editor-main blockquote {
+  border-left: 4px solid #000000;
+  padding-left: 6px;
+}
+.rdw-editor-main pre {
+  background: #c0c0c0;
+  border-radius: 2px;
+  padding: 2px 10px;
+}
+
+input, button {
+  font-family: "Roboto Condensed", sans-serif;
+}

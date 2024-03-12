@@ -1,0 +1,30 @@
+query blogFeed {
+    blogFeed {
+        id
+        slug
+        draft
+        authorId
+        author {
+            id
+            firstName
+            lastName
+            email
+            birthDate
+            gender
+            title
+            verified
+            role
+            profilePicture
+            createdAt
+            updatedAt
+            newsletterSubscribed
+        }
+        title
+        description
+        slogan
+        postCover
+        content
+        createdAt
+        updatedAt
+    }
+}

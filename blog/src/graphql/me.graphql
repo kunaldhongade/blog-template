@@ -1,0 +1,41 @@
+query Me($origin: String!) {
+    me(origin: $origin) {
+        id
+        firstName
+        lastName
+        email
+        birthDate
+        gender
+        title
+        verified
+        role
+        profilePicture
+        createdAt
+        updatedAt
+        newsletterSubscribed
+        posts {
+            id
+            slug
+            draft
+            authorId
+            title
+            description
+            slogan
+            postCover
+            content
+            createdAt
+            updatedAt
+        }
+        comments {
+            id
+            commentId
+            postId
+            authorId
+            isReplyTo
+            content
+            isDeleted
+            createdAt
+            updatedAt
+        }
+    }
+}
